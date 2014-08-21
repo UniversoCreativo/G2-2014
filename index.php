@@ -2,19 +2,26 @@
 <html>
 <head>
 <meta charset="utf-8">
-<link href="css/login.css" rel="stylesheet" type="text/css" />
 <title>Documento sin título</title>
+<link rel="StyleSheet" href="style.css" type="text/css">
 </head>
 
 <body>
 <div id="login">
- 		<div id="formulario"><strong>Usuraio </strong>
- 		  <label for="textfield">:</label>
-          <input type="text" name="textfield" id="textfield">
-          <p><strong>Contraseña</strong>: <input type="password"> </p>
- 		</div>
+<div id="formulario">
+<form id="form1" name="form1" action="acceso.php" method="POST">
+  <div id="nombre">
+      <input type="text" name="f_usuario" id="f_usuario" placeholder="Usuario"  size="30">
+   </div>
+   <div id="contraseña">
+      <input type="text" name="f_contra" id="f_contra" placeholder="Contraceña" size="30">
+   </div>
+   <div id="enviar">
+     <input type="submit" name="button" id="button" value="Enviar">
+   </div>
+   
+</form>
 </div>
-
-
+</div>
 </body>
 </html>
