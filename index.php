@@ -19,9 +19,6 @@
    <div id="enviar">
      <input type="submit" name="button" id="button" value="Enviar">
    </div>
-   
-</form>
-</div>
-</div>
+   <div> <a href="#" class="a">Ha olvidado su contraseña</a></div></form></div></div>
 </body>
 </html>

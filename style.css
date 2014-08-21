@@ -1,27 +1,33 @@
 @charset "utf-8";
 /* CSS Document */
 #login{
-	background:url(imagenes/fondo-central.png);
+	background:url(imagenes/fondo-central1.png);
 	background-repeat:no-repeat;
-	height:1024px;
-	width:1280px;
+	height:200%;
+	width:200%;
+	
 	padding-top:300px;
 	padding-left:200px;
+	
+	
 }
 #formulario{
-	        
+			/*border:#000
+			solid;*/
 			width:502px;
 			height:272px;
-			margin: 0px  auto;
+			margin-top:-80px;
+			margin-left: 180px;
             padding-top:1px;
-			margin-top:50px;			
+						
 }
 
 #nombre{
 	    margin-left: 150px;
 		margin-top: 90px;
 		width: 100px;
-		height:50px;		
+		height:50px;
+			
 	}
 	
 #contraseña{
@@ -39,20 +45,33 @@
 	}
 #f_contra:hover{
 	border: groove;
-	border-color: #6FC;
+	border-color: #FF0;
 	border-radius: 4px;
 }
 #f_usuario:hover{
 	border: groove;
-	border-color: #6FC;
+	border-color: #FF0;
 	border-radius: 4px;
 }
 
-	
+#button:hover{
+	           color: #FFF;
+}
 	
 body{
-   background-color: #FFFFFF;
-   background-image: linear-gradient(left top, #11324b, #f4faff 450px);
-   width:500px;
-   height:200px;
+	background-color: #FF6600;
+	background-image: linear-gradient(left top, #11324b, #f4faff 450px);
+	width: 500px;
+	height: 200px;
+}
+
+.a{
+	font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	font-size:10px;
+	color:#FFF;
+	float:left;
+	margin-left: 150px;
+}
+.a:hover{
+	color: #FF0;
 }
